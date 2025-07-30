@@ -10,7 +10,7 @@ APP_ID = int(os.environ.get("APP_ID", "21845036"))
 API_HASH = os.environ.get("API_HASH", "b9787357754c57417854ba8ca0d35129")
 
 # Main
-OWNER_ID = int(os.environ.get("OWNER_ID", "5510849897"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "8124820667"))
 PORT = os.environ.get("PORT", "8080")
 
 # Database
@@ -45,7 +45,7 @@ USER_REPLY_TEXT = "⚠️ ғᴜᴄᴋ ʏᴏᴜ, ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ
 
 # Logging
 LOG_FILE_NAME = "links-sharingbot.txt"
-DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", "1002119311683")) # Channel where user links are stored
+DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", "-1002119311683")) # Channel where user links are stored
 #--- ---- ---- --- --- --- - -- -  - - - - - - - - - - - --  - -
 
 try:
